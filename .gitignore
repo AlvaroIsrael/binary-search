@@ -111,18 +111,11 @@ dist
 temp/
 
 yarn.lock
+package-lock.json
 
 tmp/*
 !tmp/.gitkeep
 
 bin/
-akinator-gourmet/bin
 
-akinator-gourmet/.vscode
-akinator-gourmet/.idea
-akinator-gourmet/node_modules
-akinator-gourmet/yarn.lock
-akinator-gourmet/coverage
-akinator-gourmet/npm-debug.log*
-akinator-gourmet/yarn-debug.log*
-akinator-gourmet/yarn-error.log*
+node_modules

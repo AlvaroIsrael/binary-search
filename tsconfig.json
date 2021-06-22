@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
@@ -8,6 +8,9 @@
     "baseUrl": "./src",
     "allowJs": true,
     "paths": {
+      "@/*": [
+        "src/*"
+      ],
       "@modules/*": [
         "modules/*"
       ],

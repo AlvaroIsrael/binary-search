@@ -1,6 +1,6 @@
 import log from 'debug';
 
-interface IPerson {
+export interface IPerson {
   name: string;
   phone: number;
 }
@@ -19,7 +19,7 @@ const phoneList = [
   { name: 'j', phone: 10 },
 ] as IPerson[];
 
-const binarySearch = (value: string, values: IPerson[]): number | null => {
+export const binarySearch = (value: string, values: IPerson[]): number | null => {
   let min = 0;
   let max = values.length - 1;
   let n = values.length - 1;
